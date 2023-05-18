@@ -2,7 +2,17 @@
 Multidimensional Models and Over the Shoulder ETF, Stocks and TdAmeritrade ETL
 
 Outline:
-Extracting data from a Watchlist, an observation you will first make, kicks off the process.  The converting of the tab delimited file which is oferred as a service to TdAmeritrade clients from this format into comma-separated-values (.csv) files details this project work activity, the kick-off event.  The kick off event is inclusive of the addition of a date stamp column you will see inserted into an exported file, prior to the conversion of the newly structured file for consumption after its conversion into a .csv file.  The documentation for this first step is contained herein while the labeled folder, ".csv" contains select files for stocks grouped together in context in a "watchilst".  
+Extracting data from a Watchlist, an observation you will first make, kicks off the action in this process.  
+
+The converting of the tab delimited file which is oferred as a service to TdAmeritrade clients was the starting point, the platform that one uses at step one.  Tab delimited values are readable in excel, converted in the second step using excel from tab delimitted into excel format, then into table format for use in structured data anlyses using Power BI or Power Pivot (using com inputs).  In table format the sorting into ascending or descending order is doable as is the insertion of a date colum in yyyy-mm-dd format.  
+
+The process of conversion into csv is necessary because the csv file format is readable in data science programs like R and Python.  This might come in handy for other reasons.  In some cases when converting data types from string to numeric or from alphanumeric into numeric (eg, 101k to 101,000) is simpler using these data science programs.  Calculating expected values and using scikit learn for ml algo useage also was helped out by csv formatting use.
+
+Executive Summary:  The kick off event is inclusive of the addition of a date stamp column you will see inserted, then exported and transformed into a .csv file.  The documentation for this first step is contained herein while the labeled folder, ".csv" contains select files for stocks grouped together in context in a "watchilst".  
+
+Analysis:  data is selected from tab delimtted Td Ameritrade watchlist or filtered for the components that matter to us the most, or the high, low, open and closing prices (four values).
+
+Conclusion:  when calculating the mean price using the API (Python) one can then compare closing price to the high or low which demonstrates the momentum, the relative strength metrics, aka stochastics.
 
   Azure SQL Component:
   Configuration for a db which will hold fact table information is set and saved in template version with Azure SQL Database service.  The template is used to replicate
