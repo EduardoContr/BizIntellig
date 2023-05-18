@@ -1,0 +1,12 @@
+{
+    "a headline": [
+        "this is yesterdays price at close,",
+        3.96
+    ],
+    "analysis-Mean": 3.84,
+    "note1:": [
+        "this is yesterdays open,",
+        3.74
+    ]
+}
+
