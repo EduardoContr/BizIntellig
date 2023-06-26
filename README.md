@@ -1,3 +1,18 @@
+Section One (1/2)
+#Exposing API's for clients, Nutrition App in Python Hampton Nutrition Inc.
+Outline:
+API's allow the end user to use python, python libraries like numpy and others to quickly input and post data which is then returned with factual and actionable data.  The data that is selected for the Nutrition
+API resolves to daily nutritional values, the remaining nutritional values and the percent breakdown by element.  These include:
+
+-protein,
+-calcium,
+-iron,
+-Potassium
+
+The app and the API allow users to interact with the data from a menu to examine
+what nutritional values were consumed, which were considered at store.
+
+Section Two:
 # BizIntellig
 Multidimensional Models and Over the Shoulder ETF, Stocks and TdAmeritrade ETL
 
